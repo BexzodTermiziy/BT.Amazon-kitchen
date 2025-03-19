@@ -15,4 +15,193 @@
 
 .kitchen-box {
     max-width: 1400px;
+    padding: 30px 20px;
+}
+
+.kitchen-box-h1 {
+    font-size: 20px;
+    font-family: a-700;
+    color: rgb(15, 17, 17);
+}
+
+.kitchen-box-p {
+    font-size: 14px;
+    font-family: a-400;
+    color:rgb(86, 89, 89);
+    padding-top: 5px;
+}
+
+.kitchen-items {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: start;
+}
+
+/* KITCHEN ITEM START */
+.kitchen-item {
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
+    width: 257px;
+    margin-top: 5px;
+    /* height: 486px; */
+    /* box-shadow: 3px 3px 5px rgb(158, 156, 156); */
+}
+
+.images {
+    width: 257px;
+    height: 265px;
+    text-align: center;
+}
+
+.kitchen-img {
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 100%;
+}
+
+.kitchen-item-p {
+    font-size: 10px;
+    font-family: a-400;
+    color:rgb(86, 89, 89);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.kitchen-item-p:hover {
+    cursor: pointer;
+    color:rgb(196, 85, 0);
+}
+
+.kitchen-item-h2 {
+    font-size: 16px;
+    font-family: a-400;
+    color:#0f1111;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.kitchen-item-h2:hover {
+    cursor: pointer;
+    color:rgb(196, 85, 0);
+}
+
+.star-1 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.star-2 {
+    margin-left: -8px;
+}
+
+.kitchen-span {
+    width: 80px;
+    height: 18px;
+}
+
+.kitchen-check {
+    width: 15px;
+    height: 15px;
+}
+
+.kitchen-span-3 {
+    font-size: 14px;
+    font-family: a-400;
+    color:#3E82B9;
+}
+
+.kitchen-span-2 {
+    position: relative;
+}
+
+.kitchen-span-3 {
+    position: absolute;
+    top: 48px;
+    left: 20px;
+    /* display: inline-block; */
+    font-size: 14px;
+    font-family: a-400;
+    color:#3E82B9;
+    margin-top: -50px;
+}
+
+.kitchen-span-3:hover {
+    cursor: pointer;
+    color:rgb(12, 51, 83);
+}
+
+.kitchen-p {
+    font-size: 14px;
+    font-family: a-400;
+    color: rgb(86, 89, 89);
+    margin-left: 10px;
+}
+
+.kitchen-btn {
+    width: 85px;
+    height: 29px;
+    border-radius: 20px;
+    border: 1px solid #ABAEAE;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: a-400;
+    color: rgb(15, 17, 17);
+    background-color: inherit;
+}
+
+.kitchen-btn:hover {
+    cursor: pointer;
+    background-color: #F7FAFA;
+}
+
+/* KITCHEN ITEM END */
+
+.kitchen-text-p {
+    font-size: 14px;
+    font-family: a-400;
+    color: rgb(86, 89, 89);
+    margin-left: 10px;
+}
+
+.kitchen-text-p2 {
+    font-size: 14px;
+    font-family: a-400;
+    color: rgb(15, 17, 17);
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.text-span {
+    font-size: 14px;
+    font-family: a-400;
+    color:#3E82B9;
+    margin-left: 10px;
+}
+.text-span:hover {
+    cursor: pointer;
+    color:rgb(12, 51, 83);
+}
+
+.kitchen-btn2 {
+    width: 85px;
+    height: 29px;
+    border-radius: 20px;
+    border: 1px solid #ABAEAE;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: a-400;
+    color: rgb(15, 17, 17);
+    background-color: inherit;
+}
+
+.kitchen-btn2:hover {
+    cursor: pointer;
+    background-color: #F7FAFA;
 }
